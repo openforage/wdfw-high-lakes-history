@@ -44,4 +44,4 @@ jobs:
           author_name: 'GitHub Actions'
           author_email: 'actions@github.com'
           message: 'Update data from WDFW'
-          add: 'lakes.json'
+          add: '*.json'
