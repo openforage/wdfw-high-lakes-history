@@ -111,7 +111,7 @@ def main():
     all_lakes_data = []
 
     # Number of workers - typically set to the number of CPU cores
-    max_workers = 10
+    max_workers = 4
 
     # Process lakes in parallel with ProcessPoolExecutor
     # This is the key change for thread safety
