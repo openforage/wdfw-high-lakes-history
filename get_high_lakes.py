@@ -140,7 +140,7 @@ def main():
     Main function to orchestrate the scraping and data saving.
     """
     BASE_URL = "https://wdfw.wa.gov/fishing/locations/high-lakes"
-    OUTPUT_FILE = "high_lakes_data.json"
+    OUTPUT_FILE = "high_lakes.json"
 
     # Step 1: Get the list of county IDs
     county_ids = get_county_ids(BASE_URL)

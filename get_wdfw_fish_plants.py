@@ -50,7 +50,7 @@ def fetch_and_save():
     with open("wdfw_fish_plants.json", "w") as f:
         json.dump(result, f, indent=2)
 
-    print(f"[{datetime.now()}] Data scrape finished. {len(all_data)} records saved to /data/scrape_results.json")
+    print(f"[{datetime.now()}] Data scrape finished. {len(all_data)} records saved to wdfw_fish_plants.json")
 
 if __name__ == "__main__":
     fetch_and_save()
