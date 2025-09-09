@@ -1,5 +1,7 @@
 import json
+import random
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -89,20 +91,44 @@ def main():
 
     high_lakes_plants = []
 
-    for lake in lakes:
-        scraped_data = scrape_dynamic_table(lake["url"])
-        if scraped_data:
-            print("\nScraped Data:")
-            print(json.dumps(scraped_data, indent=2))
+    def fetch_lake_data(lake, max_retries=5, base_delay=1):
+        """Fetch data for a single lake with exponential backoff"""
+        lake_copy = lake.copy()  # Create a copy to avoid modifying the original
 
-            # Add the scraped data to the lake dictionary
-            lake["plants"] = scraped_data
-            high_lakes_plants.append(lake)
+        for attempt in range(max_retries):
+            try:
+                scraped_data = scrape_dynamic_table(lake["url"])
+                lake_copy["plants"] = scraped_data if scraped_data else []
+                if scraped_data:
+                    print(f"\nSuccessfully scraped data for {lake['name']}")
+                else:
+                    print(f"No data found for {lake['name']}")
+                return lake_copy
+            except Exception as e:
+                # Calculate backoff with jitter
+                delay = base_delay * (2 ** attempt) + random.uniform(0, 1)
+                print(f"Error fetching {lake['name']}: {e}. Retrying in {delay:.2f}s (attempt {attempt+1}/{max_retries})")
+                time.sleep(delay)
 
-        else:
-            print(f"Failed to scrape data for {lake['name']}.")
-            lake["plants"] = []  # Ensure each lake has a 'plants' key, even if empty
-            high_lakes_plants.append(lake)
+        # If we've exhausted all retries
+        print(f"Failed to scrape data for {lake['name']} after {max_retries} attempts.")
+        lake_copy["plants"] = []
+        return lake_copy
+
+    # Number of workers - adjust based on your system capabilities
+    max_workers = 10
+
+    # Process lakes in parallel with ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all tasks and create a future-to-lake mapping
+        future_to_lake = {executor.submit(fetch_lake_data, lake): lake for lake in lakes}
+
+        # Process results as they complete
+        for future in as_completed(future_to_lake):
+            lake_data = future.result()
+            high_lakes_plants.append(lake_data)
+
+    print(f"Processed {len(high_lakes_plants)} lakes in total")
 
     # After processing all lakes, save the combined data to a single JSON file
     with open('high_lakes_plants.json', 'w') as f:
