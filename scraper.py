@@ -1,87 +1,73 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import re
-from urllib.parse import urljoin, urlparse
-import time
 
 # Best practice to set a user-agent to mimic a real browser
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
-def get_all_paths(base_url, path_pattern):
+def get_county_ids(url):
     """
-    Crawls a website starting from a base URL and finds all links matching a given pattern.
-    
+    Fetches the HTML from a URL and extracts a list of county IDs.
+
     Args:
-        base_url (str): The starting URL for the crawl.
-        path_pattern (str): A regex pattern to match desired paths.
-    
+        url (str): The URL of the page to scrape.
+
     Returns:
-        list: A list of unique, absolute URLs that match the pattern.
+        list: A list of unique county IDs as strings.
     """
-    to_visit = [base_url]
-    visited = set()
-    found_paths = set()
+    try:
+        print(f"Fetching HTML from: {url}")
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.raise_for_status()  # Raise an exception for bad status codes
 
-    print(f"Starting crawl from: {base_url}")
-    
-    while to_visit:
-        current_url = to_visit.pop(0)
-        
-        # Avoid revisiting pages
-        if current_url in visited:
-            continue
-        
-        visited.add(current_url)
-        print(f"Visiting: {current_url}")
-        
-        try:
-            response = requests.get(current_url, headers=HEADERS, timeout=10)
-            response.raise_for_status()  # Raise an exception for bad status codes
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Find all anchor tags
-            for a_tag in soup.find_all('a', href=True):
-                href = a_tag['href']
-                
-                # Resolve relative URLs to absolute URLs
-                absolute_url = urljoin(base_url, href)
-                
-                # Check if the URL is internal and matches the desired path pattern
-                if urlparse(absolute_url).netloc == urlparse(base_url).netloc and re.search(path_pattern, absolute_url):
-                    found_paths.add(absolute_url)
-                    
-                    # If it's a new path to crawl, add it to the queue
-                    if absolute_url not in visited and absolute_url not in to_visit:
-                        to_visit.append(absolute_url)
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching {current_url}: {e}")
+        # Find the specific <select> element for counties
+        # The key is to use a unique identifier, like the 'name' attribute.
+        county_select_tag = soup.find('select', {'name': 'county[]'})
+
+        if not county_select_tag:
+            print("Error: Could not find the county select element.")
+            return []
+
+        county_ids = []
+        # Iterate through all <option> tags within the found <select> tag
+        for option in county_select_tag.find_all('option'):
+            county_id = option.get('value')
+            if county_id:
+                county_ids.append(county_id)
         
-        # Be a good web citizen: pause between requests
-        time.sleep(1) 
-        
-    return sorted(list(found_paths))
+        return county_ids
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error during HTTP request: {e}")
+        return []
 
 def main():
     """
-    Main function to run the scraper and save the output.
+    Main function to orchestrate the scraping and data saving.
     """
     BASE_URL = "https://wdfw.wa.gov/fishing/locations/high-lakes"
-    PATH_PATTERN = r"https://wdfw\.wa\.gov/fishing/locations/high-lakes/.+"
-    OUTPUT_FILE = "high_lakes_paths.json"
+    OUTPUT_FILE = "county_ids.json"
+
+    # Get the county IDs
+    county_ids = get_county_ids(BASE_URL)
+
+    if not county_ids:
+        print("No county IDs found. Exiting.")
+        return
+
+    # Print the found IDs for verification
+    print(f"Found {len(county_ids)} county IDs:")
+    print(county_ids)
     
-    # Get all the unique paths
-    paths = get_all_paths(BASE_URL, PATH_PATTERN)
-    
-    # Save the paths to a JSON file
+    # Save the IDs to a JSON file
     with open(OUTPUT_FILE, 'w') as f:
-        json.dump(paths, f, indent=4)
+        json.dump(county_ids, f, indent=4)
     
-    print(f"Found {len(paths)} unique paths and saved to {OUTPUT_FILE}")
+    print(f"Successfully scraped and saved county IDs to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
