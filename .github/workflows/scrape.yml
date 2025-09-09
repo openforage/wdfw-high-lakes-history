@@ -6,7 +6,7 @@ on:
   # This example runs daily at midnight UTC.
   schedule:
     - cron: '0 0 * * *'
-  
+
   # The 'workflow_dispatch' trigger allows you to manually run the workflow from the GitHub UI.
   workflow_dispatch:
 
@@ -17,7 +17,7 @@ jobs:
       # Step 1: Check out the repository code. This makes your files available to the workflow.
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       # Step 2: Set up Python. This action installs a specific version of Python.
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,15 +30,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      
-      - name: Get fish plants
-        run: python get_wdfw_fish_plants.py
-  
+
       - name: Get high lakes
         run: python get_high_lakes.py
 
-      - name: Enrich high lake data
-        run: python enrich_data.py
+      - name: Get high lakes plants
+        run: python get_high_lakes_plants.py
 
       # Step 5: Commit and push changes if the data has been updated.
       # This is the core of Git Scraping. It automatically commits the new data file
