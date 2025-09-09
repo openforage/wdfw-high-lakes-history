@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+
 def scrape_dynamic_table(url, lake_name):
     """
     Renders and scrapes a dynamically loaded HTML table using Selenium.
@@ -21,6 +22,7 @@ def scrape_dynamic_table(url, lake_name):
     Returns:
         list: A list of dictionaries representing the table data.
     """
+
     options = Options()
     options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=options)
