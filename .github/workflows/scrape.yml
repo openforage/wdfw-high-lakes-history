@@ -31,9 +31,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      # Step 4: Run the Python scraper script.
+      # Step 4.1: Run the Python scraper script.
       - name: Run scraper script
-        run: python scraper.py
+        run: python get_wdfw_fish_plants.py
+  
+      # Step 4.2: Run the Python scraper script.
+      - name: Run scraper script
+        run: python get_high_lakes.py
 
       # Step 5: Commit and push changes if the data has been updated.
       # This is the core of Git Scraping. It automatically commits the new data file
