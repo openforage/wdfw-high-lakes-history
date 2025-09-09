@@ -1,0 +1,47 @@
+name: Scheduled Data Scraper
+
+on:
+  # This section defines the trigger for the workflow.
+  # The 'schedule' trigger uses cron syntax to run the job at a specific time.
+  # This example runs daily at midnight UTC.
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # The 'workflow_dispatch' trigger allows you to manually run the workflow from the GitHub UI.
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository code. This makes your files available to the workflow.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # Step 2: Set up Python. This action installs a specific version of Python.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies.
+      # The `requests` library is necessary for making HTTP requests.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # Step 4: Run the Python scraper script.
+      - name: Run scraper script
+        run: python scraper.py
+
+      # Step 5: Commit and push changes if the data has been updated.
+      # This is the core of Git Scraping. It automatically commits the new data file
+      # only if its content has changed.
+      - name: Commit and push if content has changed
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
+          message: 'Update data from WDFW'
+          add: 'lakes.json'
