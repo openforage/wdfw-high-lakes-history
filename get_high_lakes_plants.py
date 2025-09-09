@@ -1,7 +1,7 @@
 import json
 import random
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -9,7 +9,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
 
 def scrape_dynamic_table(url, lake_name):
     """
@@ -71,6 +70,39 @@ def scrape_dynamic_table(url, lake_name):
     finally:
         driver.quit()
 
+
+def fetch_lake_data(lake, max_retries=5, base_delay=1):
+    """
+    Fetch data for a single lake with exponential backoff.
+    This function is now designed to be run in a separate process.
+    """
+    lake_copy = lake.copy()
+
+    for attempt in range(max_retries):
+        try:
+            formatted_lake_name = lake['name']
+            if len(lake['name']) > 25:
+                formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
+            scraped_data = scrape_dynamic_table(lake["url"], lake['name'])
+            lake_copy["plants"] = scraped_data if scraped_data else []
+            if scraped_data:
+                print(f"[{formatted_lake_name:25}] Successfully scraped data for {lake['name']}")
+            else:
+                print(f"[{formatted_lake_name:25}] No data found for {lake['name']}")
+            return lake_copy
+        except Exception as e:
+            delay = base_delay * (2 ** attempt) + random.uniform(0, 1)
+            print(f"[{formatted_lake_name:25}] Error fetching {lake['name']}: {e}. Retrying in {delay:.2f}s (attempt {attempt+1}/{max_retries})")
+            time.sleep(delay)
+
+    formatted_lake_name = lake['name']
+    if len(lake['name']) > 25:
+        formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
+    print(f"[{formatted_lake_name:25}] Failed to scrape data for {lake['name']} after {max_retries} attempts.")
+    lake_copy["plants"] = []
+    return lake_copy
+
+
 def main():
     # Example URL (replace with the actual lake page URL)
     with open('high_lakes.json') as f:
@@ -78,41 +110,12 @@ def main():
 
     all_lakes_data = []
 
-    def fetch_lake_data(lake, max_retries=5, base_delay=1):
-        """Fetch data for a single lake with exponential backoff"""
-        lake_copy = lake.copy()  # Create a copy to avoid modifying the original
-
-        for attempt in range(max_retries):
-            try:
-                formatted_lake_name = lake['name']
-                if len(lake['name']) > 25:
-                    formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
-                scraped_data = scrape_dynamic_table(lake["url"], lake['name'])
-                lake_copy["plants"] = scraped_data if scraped_data else []
-                if scraped_data:
-                    print(f"[{formatted_lake_name:25}] Successfully scraped data for {lake['name']}")
-                else:
-                    print(f"[{formatted_lake_name:25}] No data found for {lake['name']}")
-                return lake_copy
-            except Exception as e:
-                # Calculate backoff with jitter
-                delay = base_delay * (2 ** attempt) + random.uniform(0, 1)
-                print(f"[{formatted_lake_name:25}] Error fetching {lake['name']}: {e}. Retrying in {delay:.2f}s (attempt {attempt+1}/{max_retries})")
-                time.sleep(delay)
-
-        # If we've exhausted all retries
-        formatted_lake_name = lake['name']
-        if len(lake['name']) > 25:
-            formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
-        print(f"[{formatted_lake_name:25}] Failed to scrape data for {lake['name']} after {max_retries} attempts.")
-        lake_copy["plants"] = []
-        return lake_copy
-
-    # Number of workers - adjust based on your system capabilities
+    # Number of workers - typically set to the number of CPU cores
     max_workers = 10
 
-    # Process lakes in parallel with ThreadPoolExecutor
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+    # Process lakes in parallel with ProcessPoolExecutor
+    # This is the key change for thread safety
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
         # Submit all tasks and create a future-to-lake mapping
         future_to_lake = {executor.submit(fetch_lake_data, lake): lake for lake in lakes}
 
@@ -129,4 +132,5 @@ def main():
         print("\nAll lake data saved to all_lakes_data.json")
 
 if __name__ == "__main__":
+    # This check is crucial for the multiprocessing library to work correctly on Windows and some other systems
     main()
