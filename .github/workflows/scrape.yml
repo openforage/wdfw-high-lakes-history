@@ -31,15 +31,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      # Step 4.1: Run the Python scraper script.
-      - name: Run scraper script
+      - name: Get fish plants
         run: python get_wdfw_fish_plants.py
   
-      # Step 4.2: Run the Python scraper script.
-      - name: Run scraper script
+      - name: Get high lakes
         run: python get_high_lakes.py
 
-      - name: Enrich Data
+      - name: Enrich high lake data
         run: python enrich_data.py
 
       # Step 5: Commit and push changes if the data has been updated.
