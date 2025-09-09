@@ -8,7 +8,7 @@ import requests
 def fetch_and_save():
     print(f"[{datetime.now()}] Starting fetch of WDFW fish plants data...")
 
-    base_url = "https://data.wa.gov/resource/6fex-3r7d.json?release_year>2014"
+    base_url = "https://data.wa.gov/resource/6fex-3r7d.json?release_year%3E2014"
     all_data = []
     offset = 0
     limit = 1000
