@@ -118,4 +118,25 @@ def main():
     Main function to orchestrate the scraping and data saving.
     """
     BASE_URL = "https://wdfw.wa.gov/fishing/locations/high-lakes"
-    OUTPUT_FILE = "high
+    OUTPUT_FILE = "high_lakes_data.json"
+
+    # Step 1: Get the list of county IDs
+    county_ids = get_county_ids(BASE_URL)
+    if not county_ids:
+        print("No county IDs found. Exiting script.")
+        return
+
+    all_high_lakes = []
+    # Step 2: Loop through each county ID and scrape all lakes
+    for county_id in county_ids:
+        lakes = scrape_lakes_per_county(county_id)
+        all_high_lakes.extend(lakes)
+
+    # Save the consolidated data to a single JSON file
+    with open(OUTPUT_FILE, 'w') as f:
+        json.dump(all_high_lakes, f, indent=4)
+    
+    print(f"\nSuccessfully scraped {len(all_high_lakes)} lakes across all counties and saved to {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()
