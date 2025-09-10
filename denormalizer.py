@@ -1,16 +1,13 @@
-import csv
 import json
 
-
-
-def denormalize_and_save_to_csv(input_json_file, output_csv_file):
+def denormalize_and_save_to_json(input_json_file, output_json_file):
     """
-    Reads a JSON file with nested lists, denormalizes the data,
-    and writes it to a CSV file.
+    Reads a nested JSON file, denormalizes the data, and
+    writes it to a new JSON file with a flattened structure.
 
     Args:
         input_json_file (str): The path to the input JSON file.
-        output_csv_file (str): The path to the output CSV file.
+        output_json_file (str): The path to the output JSON file.
     """
     try:
         with open(input_json_file, 'r') as f:
@@ -20,9 +17,10 @@ def denormalize_and_save_to_csv(input_json_file, output_csv_file):
         return
 
     denormalized_data = []
-
-    # Iterate through each lake object
+    
+    # Iterate through each lake object in the main list
     for lake in data:
+        # Define the base information for each lake
         base_info = {
             'name': lake.get('name'),
             'url': lake.get('url'),
@@ -33,36 +31,41 @@ def denormalize_and_save_to_csv(input_json_file, output_csv_file):
             'location_lon': lake.get('location_lon')
         }
 
-        # Handle the case where a lake has no plants data
+        # Handle lakes with or without plant data
         plants = lake.get('plants', [])
         if not plants:
-            denormalized_data.append(base_info)
+            # If no plant data, create one entry with lake info and null plant fields
+            row = base_info.copy()
+            row.update({
+                'stock_date': None,
+                'species': None,
+                'number_released': None,
+                'number_of_fish_per_pound': None,
+                'facility': None
+            })
+            denormalized_data.append(row)
             continue
-
-        # Iterate through each plant event for the current lake
+        
+        # Iterate through each plant event and combine with lake data
         for plant in plants:
-            row = base_info.copy()  # Start with a copy of the lake's data
-            row.update(plant)       # Add the plant's data to the row
+            row = base_info.copy()
+            # Update the row with the plant's data, which is already a dictionary
+            row.update(plant)
             denormalized_data.append(row)
 
     if not denormalized_data:
         print("No data to write. Exiting.")
         return
 
-    # Determine the field names from the first denormalized row
-    fieldnames = denormalized_data[0].keys()
-
-    # Write the data to a CSV file
+    # Write the denormalized data to the specified output JSON file
     try:
-        with open(output_csv_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(denormalized_data)
-        print(f"Successfully denormalized {len(denormalized_data)} rows and saved to '{output_csv_file}'.")
+        with open(output_json_file, 'w') as f:
+            json.dump(denormalized_data, f, indent=2)
+        print(f"Successfully denormalized {len(denormalized_data)} records and saved to '{output_json_file}'.")
     except IOError as e:
-        print(f"An I/O error occurred while writing the CSV file: {e}")
+        print(f"An I/O error occurred while writing the JSON file: {e}")
 
 if __name__ == "__main__":
-    input_file_path = 'high_lakes_plants.json'  # Your input file
-    output_file_path = 'high_lakes_plants.csv' # Your desired output file
-    denormalize_and_save_to_csv(input_file_path, output_file_path)
+    input_file_path = 'high_lakes_plants.json'
+    output_file_path = 'high_lakes_plants_flattened.json'
+    denormalize_and_save_to_json(input_file_path, output_file_path)
