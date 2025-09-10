@@ -1,4 +1,26 @@
 import json
+from datetime import datetime
+
+def convert_date_to_iso(date_string):
+    """
+    Converts a date string from "Month Day, Year" format to ISO 8601.
+
+    Args:
+        date_string (str): The date string to convert (e.g., "July 1, 2025").
+
+    Returns:
+        str: The date in ISO 8601 format (e.g., "2025-07-01"), or None if conversion fails.
+    """
+    if not date_string:
+        return None
+    try:
+        # Use strptime to parse the date string based on its format
+        date_obj = datetime.strptime(date_string, '%B %d, %Y')
+        # Use strftime to format the datetime object into ISO 8601
+        return date_obj.isoformat()[:10]  # Return only the date part
+    except ValueError:
+        print(f"Warning: Could not convert date string '{date_string}'. Skipping conversion.")
+        return date_string
 
 def denormalize_and_save_to_json(input_json_file, output_json_file):
     """
@@ -51,6 +73,11 @@ def denormalize_and_save_to_json(input_json_file, output_json_file):
             row = base_info.copy()
             # Update the row with the plant's data, which is already a dictionary
             row.update(plant)
+            
+            # Convert the 'stock_date' to ISO 8601 format
+            if 'stock_date' in row and row['stock_date']:
+                row['stock_date'] = convert_date_to_iso(row['stock_date'])
+            
             denormalized_data.append(row)
 
     if not denormalized_data:
