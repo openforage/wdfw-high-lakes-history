@@ -48,5 +48,5 @@ jobs:
         with:
           author_name: 'GitHub Actions'
           author_email: 'actions@github.com'
-          message: '${{ env.date }}: Fetched from WDFW'
+          message: '${{ env.date }}: Refreshed from WDFW'
           add: '*.json'
