@@ -5,7 +5,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import (NoSuchElementException,
+                                        WebDriverException)
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -40,6 +41,17 @@ def scrape_dynamic_table(url, lake_name, county_name):
         print(f"[{formatted_log_name:<50}] Loading page in headless mode: {url}")
         driver.get(url)
 
+        # Check for the presence of fish stocking info heading
+        try:
+            # First, check if the "Fish stocking info" heading exists
+            _ = driver.find_element(By.XPATH, "//h2[contains(text(), 'Fish stocking info')]")
+            # If the heading exists, we continue with the page processing
+            print(f"[{formatted_log_name:<50}] Stocking data found. Waiting for table to load...")
+        except NoSuchElementException:
+            # If the heading doesn't exist, we can assume there's no stocking data
+            print(f"[{formatted_log_name:<50}] No stocking data found on page.")
+            return []
+
         wait = WebDriverWait(driver, 10)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "tbody#dataRows tr:not(:has(div.st-loading))")))
 
@@ -50,7 +62,7 @@ def scrape_dynamic_table(url, lake_name, county_name):
         table_caption = soup.find('caption', string='10 most recent fish plants in this lake')
         if not table_caption:
             # Updated log message format
-            print(f"[{formatted_log_name:<50}] Could not find the target table.")
+            print(f"[{formatted_log_name:<50}] Could not find the stocking table.")
             return []
 
         table = table_caption.parent
@@ -74,6 +86,7 @@ def scrape_dynamic_table(url, lake_name, county_name):
         return data_rows
 
     except IndexError:
+        print(f"[{formatted_log_name:<50}] Stocking table was empty.")
         return []
     except WebDriverException as e:
         print(f"[{formatted_log_name:<50}] WebDriver error occurred: {e}")
@@ -82,7 +95,7 @@ def scrape_dynamic_table(url, lake_name, county_name):
         driver.quit()
 
 
-def fetch_lake_data(lake, max_retries=10, base_delay=1):
+def fetch_lake_data(lake, max_retries=5, base_delay=1):
     """
     Fetches data for a single lake with exponential backoff.
     This function is designed to be run in a separate process.
@@ -100,10 +113,8 @@ def fetch_lake_data(lake, max_retries=10, base_delay=1):
                 formatted_log_name = formatted_log_name[:24] + "..." + formatted_log_name[-23:]
 
             if scraped_data:
-                # Updated log message format
                 print(f"[{formatted_log_name:<50}] Successfully scraped stocking data ({len(scraped_data)}).")
             else:
-                # Updated log message format
                 print(f"[{formatted_log_name:<50}] No stocking data found.")
             return lake_copy
         else:
