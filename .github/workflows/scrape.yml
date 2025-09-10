@@ -31,11 +31,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Get high lakes
+      - name: Get high lakes json
         run: python get_high_lakes.py
 
-      - name: Get high lakes plants
+      - name: Get high lakes plants json
         run: python get_high_lakes_plants.py
+
+      - name: Create denormalized csv
+        run: python denormalizer.py
 
       # Step 5: Commit and push changes if the data has been updated.
       # This is the core of Git Scraping. It automatically commits the new data file
