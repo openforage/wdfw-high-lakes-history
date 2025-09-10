@@ -6,4 +6,4 @@ Uses [Git Scraping](https://simonwillison.net/series/git-scraping/) to track fis
 
 This data is retrieved daily from the [Washington Department of Fish & Wildlife High lakes](https://wdfw.wa.gov/fishing/locations/high-lakes) site and contains up to the 10 most recent stocking events for each lake.
 
-You can use the [Flat Viewer](https://flatgithub.com/nashicorp/wdfw-high-lakes-history?filename=high_lakes_plants_flattened.json) to see the data in a table for easy sorting and filtering.
+The [Flat Viewer](https://flatgithub.com/nashicorp/wdfw-high-lakes-history?filename=high_lakes_plants_flattened.json) is available to view the data in a table for easy sorting and filtering.
