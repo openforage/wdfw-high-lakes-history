@@ -1,7 +1,7 @@
 import json
 import random
+import re
 import time
-from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -11,26 +11,23 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-def scrape_dynamic_table(url, lake_name):
+def scrape_dynamic_table(url, lake_name, county_name, driver):
     """
-    Renders and scrapes a dynamically loaded HTML table using Selenium.
+    Renders and scrapes a dynamically loaded HTML table using a single Selenium driver.
 
     Args:
         url (str): The URL of the page to scrape.
         lake_name (str): The name of the lake being scraped.
+        county_name (str): The name of the county the lake is in.
+        driver: The Selenium WebDriver instance.
 
     Returns:
         list: A list of dictionaries representing the table data.
     """
-
-    options = Options()
-    options.add_argument("--headless=new")
-    driver = webdriver.Chrome(options=options)
-
     try:
-        formatted_lake_name = lake_name
-        if len(lake_name) > 25:
-            formatted_lake_name = lake_name[:11] + "..." + lake_name[-11:]
+        formatted_lake_name = f"({county_name}) {lake_name}"
+        if len(formatted_lake_name) > 25:
+            formatted_lake_name = formatted_lake_name[:11] + "..." + formatted_lake_name[-11:]
         print(f"[{formatted_lake_name:25}] Loading page in headless mode: {url}")
         driver.get(url)
 
@@ -69,70 +66,54 @@ def scrape_dynamic_table(url, lake_name):
         print(f"[{formatted_lake_name:25}] An error occurred: {e}")
         return []
 
-    finally:
-        driver.quit()
-
-
-def fetch_lake_data(lake, max_retries=5, base_delay=1):
-    """
-    Fetch data for a single lake with exponential backoff.
-    This function is now designed to be run in a separate process.
-    """
-    lake_copy = lake.copy()
-
-    for attempt in range(max_retries):
-        try:
-            formatted_lake_name = lake['name']
-            if len(lake['name']) > 25:
-                formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
-            scraped_data = scrape_dynamic_table(lake["url"], lake['name'])
-            lake_copy["plants"] = scraped_data if scraped_data else []
-            if scraped_data:
-                print(f"[{formatted_lake_name:25}] Successfully scraped data for {lake['name']}")
-            else:
-                print(f"[{formatted_lake_name:25}] No data found for {lake['name']}")
-            return lake_copy
-        except Exception as e:
-            delay = base_delay * (2 ** attempt) + random.uniform(0, 1)
-            print(f"[{formatted_lake_name:25}] Error fetching {lake['name']}: {e}. Retrying in {delay:.2f}s (attempt {attempt+1}/{max_retries})")
-            time.sleep(delay)
-
-    formatted_lake_name = lake['name']
-    if len(lake['name']) > 25:
-        formatted_lake_name = lake['name'][:11] + "..." + lake['name'][-11:]
-    print(f"[{formatted_lake_name:25}] Failed to scrape data for {lake['name']} after {max_retries} attempts.")
-    lake_copy["plants"] = []
-    return lake_copy
-
 
 def main():
-    # Example URL (replace with the actual lake page URL)
-    with open('high_lakes.json') as f:
-        lakes = json.loads(f.read())
+    """
+    Main function to orchestrate the serial scraping process.
+    """
+    try:
+        with open('high_lakes.json') as f:
+            lakes = json.loads(f.read())
+    except FileNotFoundError:
+        print("Error: high_lakes.json not found. Please ensure the file exists.")
+        return
 
     all_lakes_data = []
+    options = Options()
+    options.add_argument("--headless=new")
 
-    # Number of workers - typically set to the number of CPU cores
-    max_workers = 4
+    # The key change: a single driver instance for the entire session
+    driver = webdriver.Chrome(options=options)
 
-    # Process lakes in parallel with ProcessPoolExecutor
-    # This is the key change for thread safety
-    with ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all tasks and create a future-to-lake mapping
-        future_to_lake = {executor.submit(fetch_lake_data, lake): lake for lake in lakes}
+    try:
+        # Loop over lakes one by one
+        for lake in lakes:
+            lake_copy = lake.copy()
+            scraped_data = scrape_dynamic_table(lake["url"], lake['name'], lake['county'], driver)
+            lake_copy["plants"] = scraped_data if scraped_data else []
 
-        # Process results as they complete
-        for future in as_completed(future_to_lake):
-            lake_data = future.result()
-            all_lakes_data.append(lake_data)
+            formatted_lake_name = f"({lake['county']}) {lake['name']}"
+            if len(formatted_lake_name) > 25:
+                formatted_lake_name = formatted_lake_name[:11] + "..." + formatted_lake_name[-11:]
 
-    print(f"Processed {len(all_lakes_data)} lakes in total")
+            if scraped_data:
+                print(f"[{formatted_lake_name:25}] Successfully scraped data.")
+            else:
+                print(f"[{formatted_lake_name:25}] No data found.")
 
-    # After processing all lakes, save the combined data to a single JSON file
+            all_lakes_data.append(lake_copy)
+            time.sleep(random.uniform(0.3, 0.5)) # Add a small delay between requests
+
+    finally:
+        # Ensure the driver is closed after the loop
+        driver.quit()
+
+    print(f"\nProcessed {len(all_lakes_data)} lakes in total")
+
+    # Save the combined data to a single JSON file
     with open('all_lakes_data.json', 'w') as f:
         json.dump(all_lakes_data, f, indent=2)
-        print("\nAll lake data saved to all_lakes_data.json")
+    print("\nAll lake data saved to all_lakes_data.json")
 
 if __name__ == "__main__":
-    # This check is crucial for the multiprocessing library to work correctly on Windows and some other systems
     main()
