@@ -110,7 +110,7 @@ def main():
     with open('high_lakes.json') as f:
         lakes = json.loads(f.read())
 
-    all_lakes_data = []
+    high_ = []
 
     # Number of workers - typically set to the number of CPU cores
     max_workers = 4
@@ -124,14 +124,14 @@ def main():
         # Process results as they complete
         for future in as_completed(future_to_lake):
             lake_data = future.result()
-            all_lakes_data.append(lake_data)
+            high_.append(lake_data)
 
-    print(f"Processed {len(all_lakes_data)} lakes in total")
+    print(f"Processed {len(high_)} lakes in total")
 
     # After processing all lakes, save the combined data to a single JSON file
-    with open('all_lakes_data.json', 'w') as f:
-        json.dump(all_lakes_data, f, indent=2)
-        print("\nAll lake data saved to all_lakes_data.json")
+    with open('high_.json', 'w') as f:
+        json.dump(high_, f, indent=2)
+        print("\nAll lake data saved to high_.json")
 
 if __name__ == "__main__":
     # This check is crucial for the multiprocessing library to work correctly on Windows and some other systems
