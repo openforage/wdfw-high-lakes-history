@@ -82,7 +82,7 @@ def scrape_dynamic_table(url, lake_name, county_name):
         driver.quit()
 
 
-def fetch_lake_data(lake, max_retries=5, base_delay=1):
+def fetch_lake_data(lake, max_retries=10, base_delay=1):
     """
     Fetches data for a single lake with exponential backoff.
     This function is designed to be run in a separate process.
