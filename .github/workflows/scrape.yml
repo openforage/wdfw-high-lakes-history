@@ -37,7 +37,7 @@ jobs:
       - name: Get high lakes plants json
         run: python get_high_lakes_plants.py
 
-      - name: Create denormalized csv
+      - name: Create denormalized json
         run: python denormalizer.py
 
       # Step 5: Commit and push changes if the data has been updated.
