@@ -3,9 +3,6 @@ name: Denormalize Data
 # This workflow is triggered manually and on a schedule.
 on:
   workflow_dispatch:
-  schedule:
-    # Run once a day at 1:00 AM UTC
-    - cron: '0 1 * * *'
 
 # Defines a single job for denormalizing and committing the data.
 jobs:
