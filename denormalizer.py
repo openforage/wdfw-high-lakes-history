@@ -59,11 +59,11 @@ def denormalize_and_save_to_json(input_json_file, output_json_file):
             # If no plant data, create one entry with lake info and null plant fields
             row = base_info.copy()
             row.update({
-                'stock_date': None,
-                'species': None,
-                'number_released': None,
-                'number_of_fish_per_pound': None,
-                'facility': None
+                'Stock Date': None,
+                'Species': None,
+                'Number Released': None,
+                'Number of Fish Per Pound': None,
+                'Facility': None
             })
             denormalized_data.append(row)
             continue
@@ -74,9 +74,9 @@ def denormalize_and_save_to_json(input_json_file, output_json_file):
             # Update the row with the plant's data, which is already a dictionary
             row.update(plant)
             
-            # Convert the 'stock_date' to ISO 8601 format
-            if 'stock_date' in row and row['stock_date']:
-                row['stock_date'] = convert_date_to_iso(row['stock_date'])
+            # Convert the 'Stock Date' to ISO 8601 format
+            if 'Stock Date' in row and row['Stock Date']:
+                row['Stock Date'] = convert_date_to_iso(row['Stock Date'])
             
             denormalized_data.append(row)
 
