@@ -1,0 +1,1649 @@
+[
+    {
+        "name": "Airplane",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/airplane",
+        "acres": "9.40 acres",
+        "elevation": "5305 feet",
+        "county": "Chelan",
+        "location_lat": "48.002594",
+        "location_lon": "-121.006674"
+    },
+    {
+        "name": "Bannock - Middle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bannock-middle",
+        "acres": "6.90 acres",
+        "elevation": "5929 feet",
+        "county": "Chelan",
+        "location_lat": "48.260666",
+        "location_lon": "-120.972715"
+    },
+    {
+        "name": "Bannock - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bannock-upper",
+        "acres": "11.80 acres",
+        "elevation": "5934 feet",
+        "county": "Chelan",
+        "location_lat": "48.257043",
+        "location_lon": "-120.968671"
+    },
+    {
+        "name": "Battalion",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/battalion",
+        "acres": "6.40 acres",
+        "elevation": "5350 feet",
+        "county": "Chelan",
+        "location_lat": "48.345756",
+        "location_lon": "-120.787952"
+    },
+    {
+        "name": "Blue",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/blue",
+        "acres": "14.40 acres",
+        "elevation": "6259 feet",
+        "county": "Chelan",
+        "location_lat": "48.5059",
+        "location_lon": "-120.670502"
+    },
+    {
+        "name": "Chain - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/chain-lower",
+        "acres": "3.90 acres",
+        "elevation": "5632 feet",
+        "county": "Chelan",
+        "location_lat": "47.691094",
+        "location_lon": "-121.019667"
+    },
+    {
+        "name": "Chain - Middle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/chain-middle",
+        "acres": "7.40 acres",
+        "elevation": "5684 feet",
+        "county": "Chelan",
+        "location_lat": "47.687869",
+        "location_lon": "-121.016262"
+    },
+    {
+        "name": "Chain - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/chain-upper",
+        "acres": "4.60 acres",
+        "elevation": "5710 feet",
+        "county": "Chelan",
+        "location_lat": "47.685949",
+        "location_lon": "-121.012644"
+    },
+    {
+        "name": "Chiwaukum",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/chiwaukum",
+        "acres": "68.50 acres",
+        "elevation": "5214 feet",
+        "county": "Chelan",
+        "location_lat": "47.72505",
+        "location_lon": "-120.887102"
+    },
+    {
+        "name": "D (Dee)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/d-dee",
+        "acres": "7.40 acres",
+        "elevation": "5633 feet",
+        "county": "Chelan",
+        "location_lat": "47.976458",
+        "location_lon": "-120.852153"
+    },
+    {
+        "name": "Dee Dee - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dee-dee-lower",
+        "acres": "0.80 acres",
+        "elevation": "6273 feet",
+        "county": "Chelan",
+        "location_lat": "48.405536",
+        "location_lon": "-120.649542"
+    },
+    {
+        "name": "Dee Dee - Tamarack",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dee-dee-tamarack",
+        "acres": "12.30 acres",
+        "elevation": "6308 feet",
+        "county": "Chelan",
+        "location_lat": "48.403549",
+        "location_lon": "-120.649778"
+    },
+    {
+        "name": "Doelle - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/doelle-lower",
+        "acres": "2.90 acres",
+        "elevation": "5640 feet",
+        "county": "Chelan",
+        "location_lat": "47.692801",
+        "location_lon": "-121.002441"
+    },
+    {
+        "name": "Doelle - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/doelle-upper",
+        "acres": "8.60 acres",
+        "elevation": "5787 feet",
+        "county": "Chelan",
+        "location_lat": "47.692659",
+        "location_lon": "-121.006683"
+    },
+    {
+        "name": "Dole - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dole-lower",
+        "acres": "5.00 acres",
+        "elevation": "6146 feet",
+        "county": "Chelan",
+        "location_lat": "48.175026",
+        "location_lon": "-120.733327"
+    },
+    {
+        "name": "Dole - Middle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dole-middle",
+        "acres": "6.10 acres",
+        "elevation": "6149 feet",
+        "county": "Chelan",
+        "location_lat": "48.172195",
+        "location_lon": "-120.730024"
+    },
+    {
+        "name": "Doubtful",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/doubtful",
+        "acres": "29.90 acres",
+        "elevation": "5390 feet",
+        "county": "Chelan",
+        "location_lat": "48.473985",
+        "location_lon": "-121.047633"
+    },
+    {
+        "name": "Earle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/earle",
+        "acres": "14.00 acres",
+        "elevation": "6694 feet",
+        "county": "Chelan",
+        "location_lat": "47.505274",
+        "location_lon": "-120.772158"
+    },
+    {
+        "name": "Enchantment No 3 (Leprechaun Lake)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/enchantment-no-3-leprechaun-lake",
+        "acres": "9.20 acres",
+        "elevation": "6879 feet",
+        "county": "Chelan",
+        "location_lat": "47.478118",
+        "location_lon": "-120.787162"
+    },
+    {
+        "name": "Enchantment No 5 (Inspiration Lake)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/enchantment-no-5-inspiration-lake",
+        "acres": "17.10 acres",
+        "elevation": "7194 feet",
+        "county": "Chelan",
+        "location_lat": "47.4824",
+        "location_lon": "-120.801247"
+    },
+    {
+        "name": "Grace - Lower (1)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grace-lower-1",
+        "acres": "5.30 acres",
+        "elevation": "6271 feet",
+        "county": "Chelan",
+        "location_lat": "47.692762",
+        "location_lon": "-120.939545"
+    },
+    {
+        "name": "Grass",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grass",
+        "acres": "1.90 acres",
+        "elevation": "3580 feet",
+        "county": "Chelan",
+        "location_lat": "47.685256",
+        "location_lon": "-121.076925"
+    },
+    {
+        "name": "Jason - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jason-lower",
+        "acres": "1.70 acres",
+        "elevation": "5751 feet",
+        "county": "Chelan",
+        "location_lat": "47.717142",
+        "location_lon": "-120.883055"
+    },
+    {
+        "name": "Jason - Middle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jason-middle",
+        "acres": "1.30 acres",
+        "elevation": "5832 feet",
+        "county": "Chelan",
+        "location_lat": "47.717211",
+        "location_lon": "-120.889565"
+    },
+    {
+        "name": "Jason - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jason-upper",
+        "acres": "6.00 acres",
+        "elevation": "5838 feet",
+        "county": "Chelan",
+        "location_lat": "47.714583",
+        "location_lon": "-120.890266"
+    },
+    {
+        "name": "Julius",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/julius",
+        "acres": "13.30 acres",
+        "elevation": "5194 feet",
+        "county": "Chelan",
+        "location_lat": "47.736458",
+        "location_lon": "-120.876191"
+    },
+    {
+        "name": "Klonaqua - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/klonaqua-upper",
+        "acres": "65.20 acres",
+        "elevation": "5191 feet",
+        "county": "Chelan",
+        "location_lat": "47.591968",
+        "location_lon": "-121.078666"
+    },
+    {
+        "name": "Knox",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/knox",
+        "acres": "4.80 acres",
+        "elevation": "6232 feet",
+        "county": "Chelan",
+        "location_lat": "47.693176",
+        "location_lon": "-120.88936"
+    },
+    {
+        "name": "Lanham",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lanham",
+        "acres": "7.10 acres",
+        "elevation": "4149 feet",
+        "county": "Chelan",
+        "location_lat": "47.750364",
+        "location_lon": "-121.018761"
+    },
+    {
+        "name": "Leonard - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/leonard-lower",
+        "acres": "1.90 acres",
+        "elevation": "6188 feet",
+        "county": "Chelan",
+        "location_lat": "47.533667",
+        "location_lon": "-120.929682"
+    },
+    {
+        "name": "Leonard - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/leonard-upper",
+        "acres": "1.30 acres",
+        "elevation": "6909 feet",
+        "county": "Chelan",
+        "location_lat": "47.528915",
+        "location_lon": "-120.924345"
+    },
+    {
+        "name": "Lichenwasser",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lichenwasser",
+        "acres": "25.10 acres",
+        "elevation": "4708 feet",
+        "county": "Chelan",
+        "location_lat": "47.792343",
+        "location_lon": "-121.076817"
+    },
+    {
+        "name": "Loch Eileen",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/loch-eileen",
+        "acres": "24.60 acres",
+        "elevation": "5512 feet",
+        "county": "Chelan",
+        "location_lat": "47.741462",
+        "location_lon": "-120.889511"
+    },
+    {
+        "name": "Louis",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/louis",
+        "acres": "3.60 acres",
+        "elevation": "4469 feet",
+        "county": "Chelan",
+        "location_lat": "47.864192",
+        "location_lon": "-121.132616"
+    },
+    {
+        "name": "Lyman",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lyman",
+        "acres": "73.50 acres",
+        "elevation": "5603 feet",
+        "county": "Chelan",
+        "location_lat": "48.193334",
+        "location_lon": "-120.910499"
+    },
+    {
+        "name": "Mad",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mad",
+        "acres": "7.50 acres",
+        "elevation": "5820 feet",
+        "county": "Chelan",
+        "location_lat": "47.934184",
+        "location_lon": "-120.653888"
+    },
+    {
+        "name": "Merritt",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/merritt",
+        "acres": "5.50 acres",
+        "elevation": "5027 feet",
+        "county": "Chelan",
+        "location_lat": "47.805934",
+        "location_lon": "-120.913651"
+    },
+    {
+        "name": "Mesa",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mesa",
+        "acres": "3.60 acres",
+        "elevation": "6694 feet",
+        "county": "Chelan",
+        "location_lat": "47.507994",
+        "location_lon": "-120.76594"
+    },
+    {
+        "name": "Mirror",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mirror",
+        "acres": "25.20 acres",
+        "elevation": "5489 feet",
+        "county": "Chelan",
+        "location_lat": "48.156633",
+        "location_lon": "-120.652251"
+    },
+    {
+        "name": "Myrtle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/myrtle",
+        "acres": "18.00 acres",
+        "elevation": "3768 feet",
+        "county": "Chelan",
+        "location_lat": "48.055545",
+        "location_lon": "-120.703582"
+    },
+    {
+        "name": "Phoebe",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/phoebe",
+        "acres": "11.70 acres",
+        "elevation": "5218 feet",
+        "county": "Chelan",
+        "location_lat": "47.600508",
+        "location_lon": "-121.105906"
+    },
+    {
+        "name": "Phoebe - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/phoebe-lower",
+        "acres": "2.30 acres",
+        "elevation": "5151 feet",
+        "county": "Chelan",
+        "location_lat": "47.603767",
+        "location_lon": "-121.105054"
+    },
+    {
+        "name": "Rainbow - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rainbow-lower",
+        "acres": "14.60 acres",
+        "elevation": "5634 feet",
+        "county": "Chelan",
+        "location_lat": "48.402384",
+        "location_lon": "-120.739547"
+    },
+    {
+        "name": "Rat Creek Pond",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rat-creek-pond",
+        "acres": "0.40 acres",
+        "elevation": "6261 feet",
+        "county": "Chelan",
+        "location_lat": "47.514582",
+        "location_lon": "-120.76717"
+    },
+    {
+        "name": "Rock",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock",
+        "acres": "2.70 acres",
+        "elevation": "5862 feet",
+        "county": "Chelan",
+        "location_lat": "47.797634",
+        "location_lon": "-120.963897"
+    },
+    {
+        "name": "Ruth",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/ruth",
+        "acres": "1.20 acres",
+        "elevation": "6542 feet",
+        "county": "Chelan",
+        "location_lat": "47.574339",
+        "location_lon": "-120.861857"
+    },
+    {
+        "name": "Sauer",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sauer",
+        "acres": "6.40 acres",
+        "elevation": "4788 feet",
+        "county": "Chelan",
+        "location_lat": "47.581794",
+        "location_lon": "-121.064701"
+    },
+    {
+        "name": "Shield",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/shield",
+        "acres": "35.80 acres",
+        "elevation": "6699 feet",
+        "county": "Chelan",
+        "location_lat": "47.496981",
+        "location_lon": "-120.780756"
+    },
+    {
+        "name": "Theseus",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/theseus",
+        "acres": "27.40 acres",
+        "elevation": "5064 feet",
+        "county": "Chelan",
+        "location_lat": "47.848406",
+        "location_lon": "-121.031554"
+    },
+    {
+        "name": "Toketie",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/toketie",
+        "acres": "7.80 acres",
+        "elevation": "6187 feet",
+        "county": "Chelan",
+        "location_lat": "47.50967",
+        "location_lon": "-120.744504"
+    },
+    {
+        "name": "Triplet No. 1 (Lower)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/triplet-no.-1-lower",
+        "acres": "2.40 acres",
+        "elevation": "6347 feet",
+        "county": "Chelan",
+        "location_lat": "48.292823",
+        "location_lon": "-120.556335"
+    },
+    {
+        "name": "Trout",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/trout",
+        "acres": "15.80 acres",
+        "elevation": "4789 feet",
+        "county": "Chelan",
+        "location_lat": "47.557278",
+        "location_lon": "-120.907657"
+    },
+    {
+        "name": "Turquoise",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/turquoise",
+        "acres": "19.00 acres",
+        "elevation": "5469 feet",
+        "county": "Chelan",
+        "location_lat": "47.616711",
+        "location_lon": "-121.050079"
+    },
+    {
+        "name": "Deer 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/deer-1-clallam",
+        "acres": "8.50 acres",
+        "elevation": "3525 feet",
+        "county": "Clallam",
+        "location_lat": "47.926653",
+        "location_lon": "-123.823782"
+    },
+    {
+        "name": "Long Lake (Clallam County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/long",
+        "acres": "14.20 acres",
+        "elevation": "3839 feet",
+        "county": "Clallam",
+        "location_lat": "47.922571",
+        "location_lon": "-123.773447"
+    },
+    {
+        "name": "Buckhorn",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/buckhorn",
+        "acres": "1.20 acres",
+        "elevation": "5113 feet",
+        "county": "Jefferson",
+        "location_lat": "47.837982",
+        "location_lon": "-123.113284"
+    },
+    {
+        "name": "Charlia Lakes 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/charlia-lakes-1",
+        "acres": "7.70 acres",
+        "elevation": "5504 feet",
+        "county": "Jefferson",
+        "location_lat": "47.800254",
+        "location_lon": "-123.125579"
+    },
+    {
+        "name": "Constance",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/constance",
+        "acres": "10.60 acres",
+        "elevation": "4669 feet",
+        "county": "Jefferson",
+        "location_lat": "47.750726",
+        "location_lon": "-123.14226"
+    },
+    {
+        "name": "Bench",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bench",
+        "acres": "2.90 acres",
+        "elevation": "4185 feet",
+        "county": "King",
+        "location_lat": "47.656379",
+        "location_lon": "-121.501307"
+    },
+    {
+        "name": "Bertha Lake (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bertha",
+        "acres": "2.30 acres",
+        "elevation": "4319 feet",
+        "county": "King",
+        "location_lat": "47.755337",
+        "location_lon": "-121.246329"
+    },
+    {
+        "name": "Bertha Lake Pot (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bertha-lake-pot",
+        "acres": "0.20 acres",
+        "elevation": "4318 feet",
+        "county": "King",
+        "location_lat": "47.755928",
+        "location_lon": "-121.247532"
+    },
+    {
+        "name": "Bonnie",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bonnie",
+        "acres": "7.90 acres",
+        "elevation": "4874 feet",
+        "county": "King",
+        "location_lat": "47.565648",
+        "location_lon": "-121.27247"
+    },
+    {
+        "name": "Delta",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/delta",
+        "acres": "45.60 acres",
+        "elevation": "3235 feet",
+        "county": "King",
+        "location_lat": "47.591733",
+        "location_lon": "-121.310016"
+    },
+    {
+        "name": "Embro",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/embro",
+        "acres": "9.40 acres",
+        "elevation": "4156 feet",
+        "county": "King",
+        "location_lat": "47.736266",
+        "location_lon": "-121.173946"
+    },
+    {
+        "name": "Emerald",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/emerald",
+        "acres": "2.60 acres",
+        "elevation": "4705 feet",
+        "county": "King",
+        "location_lat": "47.580307",
+        "location_lon": "-121.255475"
+    },
+    {
+        "name": "Grace (1)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grace-1",
+        "acres": "1.40 acres",
+        "elevation": "4508 feet",
+        "county": "King",
+        "location_lat": "47.74068",
+        "location_lon": "-121.109842"
+    },
+    {
+        "name": "Grace (2)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grace-2",
+        "acres": "1.10 acres",
+        "elevation": "4670 feet",
+        "county": "King",
+        "location_lat": "47.738338",
+        "location_lon": "-121.109942"
+    },
+    {
+        "name": "Grace (3)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grace-3",
+        "acres": "0.50 acres",
+        "elevation": "4866 feet",
+        "county": "King",
+        "location_lat": "47.735669",
+        "location_lon": "-121.110816"
+    },
+    {
+        "name": "Grace (4)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/grace-4",
+        "acres": "1.30 acres",
+        "elevation": "4793 feet",
+        "county": "King",
+        "location_lat": "47.736606",
+        "location_lon": "-121.112998"
+    },
+    {
+        "name": "Gus",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gus",
+        "acres": "10.30 acres",
+        "elevation": "4228 feet",
+        "county": "King",
+        "location_lat": "47.565426",
+        "location_lon": "-121.34102"
+    },
+    {
+        "name": "Gus - Little",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gus-little",
+        "acres": "3.10 acres",
+        "elevation": "4154 feet",
+        "county": "King",
+        "location_lat": "47.569968",
+        "location_lon": "-121.347904"
+    },
+    {
+        "name": "Hardscrabble - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hardscrabble-lower",
+        "acres": "10.40 acres",
+        "elevation": "4063 feet",
+        "county": "King",
+        "location_lat": "47.527074",
+        "location_lon": "-121.351076"
+    },
+    {
+        "name": "Hardscrabble - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hardscrabble-upper",
+        "acres": "6.70 acres",
+        "elevation": "4589 feet",
+        "county": "King",
+        "location_lat": "47.531792",
+        "location_lon": "-121.341529"
+    },
+    {
+        "name": "Hardscrabble Pot - Lwr",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hardscrabble-pot-lwr",
+        "acres": "0.30 acres",
+        "elevation": "4047 feet",
+        "county": "King",
+        "location_lat": "47.524725",
+        "location_lon": "-121.351291"
+    },
+    {
+        "name": "Jade",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jade",
+        "acres": "3.80 acres",
+        "elevation": "4614 feet",
+        "county": "King",
+        "location_lat": "47.584823",
+        "location_lon": "-121.257818"
+    },
+    {
+        "name": "Jewel",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jewel",
+        "acres": "7.80 acres",
+        "elevation": "4471 feet",
+        "county": "King",
+        "location_lat": "47.590843",
+        "location_lon": "-121.275979"
+    },
+    {
+        "name": "Kaleetan",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/kaleetan",
+        "acres": "41.60 acres",
+        "elevation": "3864 feet",
+        "county": "King",
+        "location_lat": "47.466207",
+        "location_lon": "-121.494398"
+    },
+    {
+        "name": "Mosquito (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mosquito-king",
+        "acres": "1.20 acres",
+        "elevation": "4470 feet",
+        "county": "King",
+        "location_lat": "47.763419",
+        "location_lon": "-121.147788"
+    },
+    {
+        "name": "Mosquito Pothole - E",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mosquito-pothole-e",
+        "acres": "2.10 acres",
+        "elevation": "4590 feet",
+        "county": "King",
+        "location_lat": "47.763413",
+        "location_lon": "-121.143604"
+    },
+    {
+        "name": "Mt Fernow Pothole 3",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mt-fernow-pothole-3",
+        "acres": "0.90 acres",
+        "elevation": "4381 feet",
+        "county": "King",
+        "location_lat": "47.766663",
+        "location_lon": "-121.235209"
+    },
+    {
+        "name": "Murphy - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/murphy-upper",
+        "acres": "6.50 acres",
+        "elevation": "4748 feet",
+        "county": "King",
+        "location_lat": "47.683804",
+        "location_lon": "-121.129951"
+    },
+    {
+        "name": "Myrtle (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/myrtle-king",
+        "acres": "14.40 acres",
+        "elevation": "3781 feet",
+        "county": "King",
+        "location_lat": "47.549148",
+        "location_lon": "-121.38338"
+    },
+    {
+        "name": "Olallie Lake (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/olallie",
+        "acres": "13.20 acres",
+        "elevation": "3785 feet",
+        "county": "King",
+        "location_lat": "47.422552",
+        "location_lon": "-121.510259"
+    },
+    {
+        "name": "Panorama",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/panorama",
+        "acres": "8.00 acres",
+        "elevation": "5282 feet",
+        "county": "King",
+        "location_lat": "47.630702",
+        "location_lon": "-121.335587"
+    },
+    {
+        "name": "Pugsley (Dans)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/pugsley-dans",
+        "acres": "16.70 acres",
+        "elevation": "3419 feet",
+        "county": "King",
+        "location_lat": "47.586085",
+        "location_lon": "-121.399945"
+    },
+    {
+        "name": "Purvis",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/purvis",
+        "acres": "6.90 acres",
+        "elevation": "5313 feet",
+        "county": "King",
+        "location_lat": "47.627731",
+        "location_lon": "-121.346616"
+    },
+    {
+        "name": "Rock (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king1",
+        "acres": "23.10 acres",
+        "elevation": "4550 feet",
+        "county": "King",
+        "location_lat": "47.640293",
+        "location_lon": "-121.335078"
+    },
+    {
+        "name": "Summit (Mosquito)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/summit-mosquito",
+        "acres": "5.40 acres",
+        "elevation": "4589 feet",
+        "county": "King",
+        "location_lat": "47.739428",
+        "location_lon": "-121.114923"
+    },
+    {
+        "name": "Tusco Out-In Pot - Large",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tusco-out-in-pot-large",
+        "acres": "5.50 acres",
+        "elevation": "3674 feet",
+        "county": "King",
+        "location_lat": "47.435231",
+        "location_lon": "-121.490203"
+    },
+    {
+        "name": "Tusco Out-In Pot - Small",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tusco-out-in-pot-small",
+        "acres": "1.60 acres",
+        "elevation": "3673 feet",
+        "county": "King",
+        "location_lat": "47.43508",
+        "location_lon": "-121.492152"
+    },
+    {
+        "name": "Tye",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tye",
+        "acres": "3.20 acres",
+        "elevation": "4682 feet",
+        "county": "King",
+        "location_lat": "47.765056",
+        "location_lon": "-121.112086"
+    },
+    {
+        "name": "Yutaka",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/yutaka",
+        "acres": "2.20 acres",
+        "elevation": "4754 feet",
+        "county": "King",
+        "location_lat": "47.775467",
+        "location_lon": "-121.123857"
+    },
+    {
+        "name": "Baker (Thetis)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/baker-thetis",
+        "acres": "4.70 acres",
+        "elevation": "4434 feet",
+        "county": "Kittitas",
+        "location_lat": "47.351427",
+        "location_lon": "-121.301709"
+    },
+    {
+        "name": "Naneum",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/naneum",
+        "acres": "4.70 acres",
+        "elevation": "4431 feet",
+        "county": "Kittitas",
+        "location_lat": "47.265648",
+        "location_lon": "-120.508453"
+    },
+    {
+        "name": "Porcupine",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/porcupine",
+        "acres": "0.20 acres",
+        "elevation": "4626 feet",
+        "county": "Kittitas",
+        "location_lat": "47.392113",
+        "location_lon": "-121.340187"
+    },
+    {
+        "name": "Robin - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/robin-lower",
+        "acres": "8.90 acres",
+        "elevation": "6168 feet",
+        "county": "Kittitas",
+        "location_lat": "47.583661",
+        "location_lon": "-121.101851"
+    },
+    {
+        "name": "Robin - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/robin-upper",
+        "acres": "34.90 acres",
+        "elevation": "6183 feet",
+        "county": "Kittitas",
+        "location_lat": "47.586466",
+        "location_lon": "-121.099525"
+    },
+    {
+        "name": "Shoestring",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/shoestring",
+        "acres": "1.10 acres",
+        "elevation": "5668 feet",
+        "county": "Kittitas",
+        "location_lat": "47.018892",
+        "location_lon": "-121.011589"
+    },
+    {
+        "name": "Shovel",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/shovel",
+        "acres": "34.40 acres",
+        "elevation": "4143 feet",
+        "county": "Kittitas",
+        "location_lat": "47.53831",
+        "location_lon": "-121.202894"
+    },
+    {
+        "name": "Tuck",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tuck",
+        "acres": "16.00 acres",
+        "elevation": "5273 feet",
+        "county": "Kittitas",
+        "location_lat": "47.588168",
+        "location_lon": "-121.11589"
+    },
+    {
+        "name": "Tuck Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tuck-pot",
+        "acres": "1.10 acres",
+        "elevation": "5264 feet",
+        "county": "Kittitas",
+        "location_lat": "47.587168",
+        "location_lon": "-121.119203"
+    },
+    {
+        "name": "Chambers Lake",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/chambers-lake",
+        "acres": "10.80 acres",
+        "elevation": "4442 feet",
+        "county": "Lewis",
+        "location_lat": "46.466595",
+        "location_lon": "-121.534791"
+    },
+    {
+        "name": "Gertrude",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gertrude",
+        "acres": "8.40 acres",
+        "elevation": "5740 feet",
+        "county": "Lewis",
+        "location_lat": "46.39117",
+        "location_lon": "-121.397854"
+    },
+    {
+        "name": "Greenwood",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/greenwood",
+        "acres": "5.90 acres",
+        "elevation": "4465 feet",
+        "county": "Lewis",
+        "location_lat": "46.658701",
+        "location_lon": "-121.908596"
+    },
+    {
+        "name": "Cooney",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cooney",
+        "acres": "7.90 acres",
+        "elevation": "7246 feet",
+        "county": "Okanogan",
+        "location_lat": "48.17797",
+        "location_lon": "-120.348647"
+    },
+    {
+        "name": "Cornwell",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cornwell",
+        "acres": "6.40 acres",
+        "elevation": "6954 feet",
+        "county": "Okanogan",
+        "location_lat": "48.935531",
+        "location_lon": "-120.201391"
+    },
+    {
+        "name": "Cutthroat",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cutthroat",
+        "acres": "8.80 acres",
+        "elevation": "4940 feet",
+        "county": "Okanogan",
+        "location_lat": "48.540542",
+        "location_lon": "-120.680343"
+    },
+    {
+        "name": "Dutton - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dutton-lower",
+        "acres": "2.60 acres",
+        "elevation": "6832 feet",
+        "county": "Okanogan",
+        "location_lat": "48.862734",
+        "location_lon": "-120.192607"
+    },
+    {
+        "name": "Eagle - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/eagle-lower",
+        "acres": "7.90 acres",
+        "elevation": "6507 feet",
+        "county": "Okanogan",
+        "location_lat": "48.208538",
+        "location_lon": "-120.333846"
+    },
+    {
+        "name": "Eagle - Middle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/eagle-middle",
+        "acres": "2.10 acres",
+        "elevation": "7027 feet",
+        "county": "Okanogan",
+        "location_lat": "48.211659",
+        "location_lon": "-120.340711"
+    },
+    {
+        "name": "Glory",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/glory",
+        "acres": "1.60 acres",
+        "elevation": "6671 feet",
+        "county": "Okanogan",
+        "location_lat": "48.908928",
+        "location_lon": "-120.241182"
+    },
+    {
+        "name": "Halfmoon",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/halfmoon",
+        "acres": "10.90 acres",
+        "elevation": "6716 feet",
+        "county": "Okanogan",
+        "location_lat": "48.828214",
+        "location_lon": "-120.245434"
+    },
+    {
+        "name": "Martin - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/martin-lower",
+        "acres": "6.00 acres",
+        "elevation": "6744 feet",
+        "county": "Okanogan",
+        "location_lat": "48.189721",
+        "location_lon": "-120.334929"
+    },
+    {
+        "name": "Mosquito",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mosquito",
+        "acres": "5.80 acres",
+        "elevation": "5288 feet",
+        "county": "Okanogan",
+        "location_lat": "48.408319",
+        "location_lon": "-120.633845"
+    },
+    {
+        "name": "No Dice",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/no-dice",
+        "acres": "2.90 acres",
+        "elevation": "6545 feet",
+        "county": "Okanogan",
+        "location_lat": "48.770792",
+        "location_lon": "-120.33968"
+    },
+    {
+        "name": "Sheep",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sheep",
+        "acres": "4.40 acres",
+        "elevation": "7080 feet",
+        "county": "Okanogan",
+        "location_lat": "48.97299",
+        "location_lon": "-120.379415"
+    },
+    {
+        "name": "South",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/south",
+        "acres": "2.20 acres",
+        "elevation": "6171 feet",
+        "county": "Okanogan",
+        "location_lat": "48.42762",
+        "location_lon": "-120.637862"
+    },
+    {
+        "name": "South Pot 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/south-pot-1",
+        "acres": "1.00 acres",
+        "elevation": "6262 feet",
+        "county": "Okanogan",
+        "location_lat": "48.431283",
+        "location_lon": "-120.639657"
+    },
+    {
+        "name": "White (1)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/white-1",
+        "acres": "3.00 acres",
+        "elevation": "6350 feet",
+        "county": "Okanogan",
+        "location_lat": "48.90901",
+        "location_lon": "-120.549642"
+    },
+    {
+        "name": "White (2)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/white-2",
+        "acres": "1.90 acres",
+        "elevation": "6592 feet",
+        "county": "Okanogan",
+        "location_lat": "48.905782",
+        "location_lon": "-120.544872"
+    },
+    {
+        "name": "Campbell",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/campbell",
+        "acres": "0.40 acres",
+        "elevation": "5591 feet",
+        "county": "Pierce",
+        "location_lat": "46.916324",
+        "location_lon": "-121.487371"
+    },
+    {
+        "name": "Cedar",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cedar",
+        "acres": "34.40 acres",
+        "elevation": "4206 feet",
+        "county": "Pierce",
+        "location_lat": "47.074207",
+        "location_lon": "-121.838999"
+    },
+    {
+        "name": "Christine",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/christine",
+        "acres": "2.60 acres",
+        "elevation": "4806 feet",
+        "county": "Pierce",
+        "location_lat": "46.777571",
+        "location_lon": "-121.936279"
+    },
+    {
+        "name": "Coplay",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/coplay",
+        "acres": "18.50 acres",
+        "elevation": "3893 feet",
+        "county": "Pierce",
+        "location_lat": "47.024651",
+        "location_lon": "-121.832592"
+    },
+    {
+        "name": "Coundly",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/coundly",
+        "acres": "13.30 acres",
+        "elevation": "4126 feet",
+        "county": "Pierce",
+        "location_lat": "47.05026",
+        "location_lon": "-121.838885"
+    },
+    {
+        "name": "EB Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/eb-pot",
+        "acres": "2.40 acres",
+        "elevation": "4026 feet",
+        "county": "Pierce",
+        "location_lat": "47.02511",
+        "location_lon": "-121.927362"
+    },
+    {
+        "name": "Echo",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/echo",
+        "acres": "51.20 acres",
+        "elevation": "3823 feet",
+        "county": "Pierce",
+        "location_lat": "47.041233",
+        "location_lon": "-121.424106"
+    },
+    {
+        "name": "Goat",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/goat",
+        "acres": "7.70 acres",
+        "elevation": "4347 feet",
+        "county": "Pierce",
+        "location_lat": "46.793311",
+        "location_lon": "-121.924495"
+    },
+    {
+        "name": "Henskin - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/henskin-lower",
+        "acres": "2.20 acres",
+        "elevation": "5480 feet",
+        "county": "Pierce",
+        "location_lat": "46.918372",
+        "location_lon": "-121.483834"
+    },
+    {
+        "name": "Henskin - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/henskin-upper",
+        "acres": "0.40 acres",
+        "elevation": "5594 feet",
+        "county": "Pierce",
+        "location_lat": "46.915721",
+        "location_lon": "-121.487882"
+    },
+    {
+        "name": "Lonesome",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lonesome",
+        "acres": "8.30 acres",
+        "elevation": "4781 feet",
+        "county": "Pierce",
+        "location_lat": "47.006503",
+        "location_lon": "-121.663618"
+    },
+    {
+        "name": "Lost (Pierce County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lost-pierce",
+        "acres": "6.50 acres",
+        "elevation": "5528 feet",
+        "county": "Pierce",
+        "location_lat": "46.942833",
+        "location_lon": "-121.657969"
+    },
+    {
+        "name": "Lost Lake (Pierce County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lost",
+        "acres": "17.20 acres",
+        "elevation": "3989 feet",
+        "county": "Pierce",
+        "location_lat": "47.046379",
+        "location_lon": "-121.46053"
+    },
+    {
+        "name": "Lyle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lyle",
+        "acres": "7.80 acres",
+        "elevation": "4151 feet",
+        "county": "Pierce",
+        "location_lat": "47.070524",
+        "location_lon": "-121.820775"
+    },
+    {
+        "name": "Arrowhead",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/arrowhead",
+        "acres": "10.50 acres",
+        "elevation": "4411 feet",
+        "county": "Skagit",
+        "location_lat": "48.432548",
+        "location_lon": "-121.290053"
+    },
+    {
+        "name": "Found",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/found",
+        "acres": "62.90 acres",
+        "elevation": "4027 feet",
+        "county": "Skagit",
+        "location_lat": "48.434211",
+        "location_lon": "-121.253438"
+    },
+    {
+        "name": "Gee - Little",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gee-little",
+        "acres": "2.00 acres",
+        "elevation": "4186 feet",
+        "county": "Skagit",
+        "location_lat": "48.419248",
+        "location_lon": "-121.812553"
+    },
+    {
+        "name": "Josephine - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/josephine-lower",
+        "acres": "2.30 acres",
+        "elevation": "2796 feet",
+        "county": "Skagit",
+        "location_lat": "48.584658",
+        "location_lon": "-121.95525"
+    },
+    {
+        "name": "Monogram",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/monogram",
+        "acres": "28.70 acres",
+        "elevation": "4877 feet",
+        "county": "Skagit",
+        "location_lat": "48.556917",
+        "location_lon": "-121.280465"
+    },
+    {
+        "name": "Meta",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/meta",
+        "acres": "10.40 acres",
+        "elevation": "3634 feet",
+        "county": "Skamania",
+        "location_lat": "46.297013",
+        "location_lon": "-122.082502"
+    },
+    {
+        "name": "Strawberry",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/strawberry",
+        "acres": "7.50 acres",
+        "elevation": "4752 feet",
+        "county": "Skamania",
+        "location_lat": "46.325907",
+        "location_lon": "-122.053863"
+    },
+    {
+        "name": "Bath Pot 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bath-pot-1",
+        "acres": "0.90 acres",
+        "elevation": "5634 feet",
+        "county": "Snohomish",
+        "location_lat": "48.248745",
+        "location_lon": "-121.079558"
+    },
+    {
+        "name": "Bear Lake (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bear",
+        "acres": "18.90 acres",
+        "elevation": "2780 feet",
+        "county": "Snohomish",
+        "location_lat": "48.058358",
+        "location_lon": "-121.742891"
+    },
+    {
+        "name": "Blanca",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/blanca",
+        "acres": "160.10 acres",
+        "elevation": "3976 feet",
+        "county": "Snohomish",
+        "location_lat": "47.940573",
+        "location_lon": "-121.34106"
+    },
+    {
+        "name": "Box Mtn - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/box-mtn-lower",
+        "acres": "23.30 acres",
+        "elevation": "5064 feet",
+        "county": "Snohomish",
+        "location_lat": "48.224075",
+        "location_lon": "-121.215524"
+    },
+    {
+        "name": "Box Mtn - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/box-mtn-upper",
+        "acres": "4.40 acres",
+        "elevation": "5229 feet",
+        "county": "Snohomish",
+        "location_lat": "48.222515",
+        "location_lon": "-121.220456"
+    },
+    {
+        "name": "Cup",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cup",
+        "acres": "10.60 acres",
+        "elevation": "4715 feet",
+        "county": "Snohomish",
+        "location_lat": "47.826317",
+        "location_lon": "-121.141114"
+    },
+    {
+        "name": "Eagle",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/eagle",
+        "acres": "18.60 acres",
+        "elevation": "3892 feet",
+        "county": "Snohomish",
+        "location_lat": "47.795729",
+        "location_lon": "-121.413636"
+    },
+    {
+        "name": "East Boardman",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/east-boardman",
+        "acres": "21.90 acres",
+        "elevation": "3365 feet",
+        "county": "Snohomish",
+        "location_lat": "48.010446",
+        "location_lon": "-121.663193"
+    },
+    {
+        "name": "Flapjack Point Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/flapjack-point-pot",
+        "acres": "2.10 acres",
+        "elevation": "4384 feet",
+        "county": "Snohomish",
+        "location_lat": "47.791192",
+        "location_lon": "-121.370943"
+    },
+    {
+        "name": "Goat (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/goat-snohomish",
+        "acres": "58.40 acres",
+        "elevation": "3165 feet",
+        "county": "Snohomish",
+        "location_lat": "48.017787",
+        "location_lon": "-121.350916"
+    },
+    {
+        "name": "Gulch (2)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gulch-2",
+        "acres": "3.90 acres",
+        "elevation": "3632 feet",
+        "county": "Snohomish",
+        "location_lat": "47.938696",
+        "location_lon": "-121.456076"
+    },
+    {
+        "name": "Joan",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/joan",
+        "acres": "2.60 acres",
+        "elevation": "5040 feet",
+        "county": "Snohomish",
+        "location_lat": "47.792052",
+        "location_lon": "-121.193917"
+    },
+    {
+        "name": "Joan Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/joan-pot",
+        "acres": "0.20 acres",
+        "elevation": "5060 feet",
+        "county": "Snohomish",
+        "location_lat": "47.790958",
+        "location_lon": "-121.193848"
+    },
+    {
+        "name": "Saucer",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/saucer",
+        "acres": "15.00 acres",
+        "elevation": "4487 feet",
+        "county": "Snohomish",
+        "location_lat": "47.829128",
+        "location_lon": "-121.14734"
+    },
+    {
+        "name": "Twin - Lower (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-lower-snohomish",
+        "acres": "23.30 acres",
+        "elevation": "4624 feet",
+        "county": "Snohomish",
+        "location_lat": "47.949446",
+        "location_lon": "-121.377239"
+    },
+    {
+        "name": "Bagley - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bagley-upper",
+        "acres": "3.80 acres",
+        "elevation": "4172 feet",
+        "county": "Whatcom",
+        "location_lat": "48.860064",
+        "location_lon": "-121.684465"
+    },
+    {
+        "name": "Bearpaw Mtn",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/bearpaw-mtn",
+        "acres": "5.90 acres",
+        "elevation": "4425 feet",
+        "county": "Whatcom",
+        "location_lat": "48.951348",
+        "location_lon": "-121.841096"
+    },
+    {
+        "name": "Berdeen",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/berdeen",
+        "acres": "125.60 acres",
+        "elevation": "5018 feet",
+        "county": "Whatcom",
+        "location_lat": "48.71593",
+        "location_lon": "-121.464573"
+    },
+    {
+        "name": "Berdeen - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/berdeen-lower",
+        "acres": "7.30 acres",
+        "elevation": "4473 feet",
+        "county": "Whatcom",
+        "location_lat": "48.706932",
+        "location_lon": "-121.477572"
+    },
+    {
+        "name": "Berdeen - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/berdeen-upper",
+        "acres": "9.20 acres",
+        "elevation": "5067 feet",
+        "county": "Whatcom",
+        "location_lat": "48.725722",
+        "location_lon": "-121.470262"
+    },
+    {
+        "name": "Blue (Whatcom County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/blue-whatcom",
+        "acres": "12.20 acres",
+        "elevation": "3984 feet",
+        "county": "Whatcom",
+        "location_lat": "48.646984",
+        "location_lon": "-121.792541"
+    },
+    {
+        "name": "Dougs",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dougs",
+        "acres": "5.80 acres",
+        "elevation": "3949 feet",
+        "county": "Whatcom",
+        "location_lat": "48.721943",
+        "location_lon": "-121.365115"
+    },
+    {
+        "name": "Hozomeen (HM-2)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hozomeen-hm-2",
+        "acres": "97.30 acres",
+        "elevation": "2827 feet",
+        "county": "Whatcom",
+        "location_lat": "48.959828",
+        "location_lon": "-121.036569"
+    },
+    {
+        "name": "Iceberg",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/iceberg",
+        "acres": "36.50 acres",
+        "elevation": "4797 feet",
+        "county": "Whatcom",
+        "location_lat": "48.854069",
+        "location_lon": "-121.717971"
+    },
+    {
+        "name": "Jerry No. 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jerry-no.-1",
+        "acres": "26.90 acres",
+        "elevation": "5904 feet",
+        "county": "Whatcom",
+        "location_lat": "48.760643",
+        "location_lon": "-120.919749"
+    },
+    {
+        "name": "Jerry No. 2",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jerry-no.-2",
+        "acres": "1.10 acres",
+        "elevation": "5916 feet",
+        "county": "Whatcom",
+        "location_lat": "48.757497",
+        "location_lon": "-120.921115"
+    },
+    {
+        "name": "Jerry No. 3",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jerry-no.-3",
+        "acres": "27.10 acres",
+        "elevation": "5934 feet",
+        "county": "Whatcom",
+        "location_lat": "48.755677",
+        "location_lon": "-120.924967"
+    },
+    {
+        "name": "Maiden",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/maiden",
+        "acres": "18.30 acres",
+        "elevation": "3923 feet",
+        "county": "Whatcom",
+        "location_lat": "48.799895",
+        "location_lon": "-121.664967"
+    },
+    {
+        "name": "Pocket No. 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/pocket-no.-1",
+        "acres": "4.90 acres",
+        "elevation": "4515 feet",
+        "county": "Whatcom",
+        "location_lat": "48.985594",
+        "location_lon": "-121.532349"
+    },
+    {
+        "name": "Shuksan",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/shuksan",
+        "acres": "29.00 acres",
+        "elevation": "3698 feet",
+        "county": "Whatcom",
+        "location_lat": "48.773767",
+        "location_lon": "-121.573469"
+    },
+    {
+        "name": "Skymo",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/skymo",
+        "acres": "10.70 acres",
+        "elevation": "5281 feet",
+        "county": "Whatcom",
+        "location_lat": "48.836288",
+        "location_lon": "-121.103291"
+    },
+    {
+        "name": "Skymo - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/skymo-upper",
+        "acres": "0.60 acres",
+        "elevation": "5282 feet",
+        "county": "Whatcom",
+        "location_lat": "48.833582",
+        "location_lon": "-121.10575"
+    },
+    {
+        "name": "Sourdough",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sourdough",
+        "acres": "26.60 acres",
+        "elevation": "4617 feet",
+        "county": "Whatcom",
+        "location_lat": "48.759094",
+        "location_lon": "-121.124668"
+    },
+    {
+        "name": "Tomyhoi",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tomyhoi",
+        "acres": "61.90 acres",
+        "elevation": "3726 feet",
+        "county": "Whatcom",
+        "location_lat": "48.974521",
+        "location_lon": "-121.681236"
+    },
+    {
+        "name": "Twin - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-lower",
+        "acres": "18.20 acres",
+        "elevation": "5165 feet",
+        "county": "Whatcom",
+        "location_lat": "48.95119",
+        "location_lon": "-121.638326"
+    },
+    {
+        "name": "Twin - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper",
+        "acres": "16.40 acres",
+        "elevation": "5181 feet",
+        "county": "Whatcom",
+        "location_lat": "48.953043",
+        "location_lon": "-121.633053"
+    },
+    {
+        "name": "Watson Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/watson-pot",
+        "acres": "1.80 acres",
+        "elevation": "4332 feet",
+        "county": "Whatcom",
+        "location_lat": "48.669677",
+        "location_lon": "-121.582656"
+    },
+    {
+        "name": "Cougar - Little",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/cougar-little",
+        "acres": "12.50 acres",
+        "elevation": "5024 feet",
+        "county": "Yakima",
+        "location_lat": "46.813758",
+        "location_lon": "-121.447586"
+    },
+    {
+        "name": "Dewey",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dewey",
+        "acres": "50.60 acres",
+        "elevation": "5116 feet",
+        "county": "Yakima",
+        "location_lat": "46.855944",
+        "location_lon": "-121.482124"
+    },
+    {
+        "name": "Dewey - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/dewey-upper",
+        "acres": "7.60 acres",
+        "elevation": "5134 feet",
+        "county": "Yakima",
+        "location_lat": "46.854937",
+        "location_lon": "-121.49011"
+    },
+    {
+        "name": "Placer",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/placer",
+        "acres": "3.10 acres",
+        "elevation": "5380 feet",
+        "county": "Yakima",
+        "location_lat": "46.904563",
+        "location_lon": "-121.481431"
+    },
+    {
+        "name": "Sheep (Yakima County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sheep-yakima",
+        "acres": "2.50 acres",
+        "elevation": "5760 feet",
+        "county": "Yakima",
+        "location_lat": "46.89457",
+        "location_lon": "-121.50248"
+    }
+]
