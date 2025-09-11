@@ -35,6 +35,9 @@ jobs:
         run: python get_high_lakes.py
 
       - name: Get high lakes plants json
+        run: python get_high_lakes_overabundant.py
+
+      - name: Get high lakes plants json
         run: python get_high_lakes_plants.py
 
       - name: Create denormalized json
