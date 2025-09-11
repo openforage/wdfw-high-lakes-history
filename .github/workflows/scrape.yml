@@ -40,8 +40,8 @@ jobs:
       - name: Get high lakes plants json
         run: python get_high_lakes_plants.py
 
-      - name: Create denormalized json
-        run: python denormalizer.py
+      - name: Create flattened json
+        run: python flatten.py
 
       # Step 5: Commit and push changes if the data has been updated.
       # This is the core of Git Scraping. It automatically commits the new data file
