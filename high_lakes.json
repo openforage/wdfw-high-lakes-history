@@ -2854,21 +2854,21 @@
     },
     {
         "name": "Rock (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king1",
-        "acres": "23.10 acres",
-        "elevation": "4550 feet",
-        "county": "King",
-        "location_lat": "47.640293",
-        "location_lon": "-121.335078"
-    },
-    {
-        "name": "Rock (King County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king2",
         "acres": "6.20 acres",
         "elevation": "3876 feet",
         "county": "King",
         "location_lat": "47.545822",
         "location_lon": "-121.442925"
+    },
+    {
+        "name": "Rock (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king1",
+        "acres": "23.10 acres",
+        "elevation": "4550 feet",
+        "county": "King",
+        "location_lat": "47.640293",
+        "location_lon": "-121.335078"
     },
     {
         "name": "Rockdale Lake",
@@ -7615,21 +7615,21 @@
     },
     {
         "name": "Twin - Upper (Snohomish County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
-        "acres": "19.70 acres",
-        "elevation": "5547 feet",
-        "county": "Snohomish",
-        "location_lat": "48.207539",
-        "location_lon": "-121.199232"
-    },
-    {
-        "name": "Twin - Upper (Snohomish County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish-1",
         "acres": "64.50 acres",
         "elevation": "4704 feet",
         "county": "Snohomish",
         "location_lat": "47.953483",
         "location_lon": "-121.377547"
+    },
+    {
+        "name": "Twin - Upper (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
+        "acres": "19.70 acres",
+        "elevation": "5547 feet",
+        "county": "Snohomish",
+        "location_lat": "48.207539",
+        "location_lon": "-121.199232"
     },
     {
         "name": "Unnamed - L31364",
@@ -7702,6 +7702,24 @@
         "county": "Snohomish",
         "location_lat": "48.131515",
         "location_lon": "-121.542881"
+    },
+    {
+        "name": "Black Lake (Stevens County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/black-lake-stevens",
+        "acres": "69.10 acres",
+        "elevation": "3690 feet",
+        "county": "Stevens",
+        "location_lat": "48.561744",
+        "location_lon": "-117.626181"
+    },
+    {
+        "name": "Little Twin Lake",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/little-twin-lake-stevens",
+        "acres": "33.00 acres",
+        "elevation": "3728 feet",
+        "county": "Stevens",
+        "location_lat": "48.572653",
+        "location_lon": "-117.642592"
     },
     {
         "name": "Anderson 1",
