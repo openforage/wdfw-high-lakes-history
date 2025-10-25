@@ -6112,21 +6112,21 @@
     },
     {
         "name": "Elk Lake (Skamania County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/elk-skamania",
-        "acres": "27.30 acres",
-        "elevation": "3973 feet",
-        "county": "Skamania",
-        "location_lat": "46.335203",
-        "location_lon": "-122.235863"
-    },
-    {
-        "name": "Elk Lake (Skamania County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/elk-skamania-1",
         "acres": "12.50 acres",
         "elevation": "4689 feet",
         "county": "Skamania",
         "location_lat": "46.021834",
         "location_lon": "-121.795763"
+    },
+    {
+        "name": "Elk Lake (Skamania County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/elk-skamania",
+        "acres": "27.30 acres",
+        "elevation": "3973 feet",
+        "county": "Skamania",
+        "location_lat": "46.335203",
+        "location_lon": "-122.235863"
     },
     {
         "name": "Eunice Lake (Skamania County)",
