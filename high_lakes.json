@@ -2125,12 +2125,12 @@
     },
     {
         "name": "Horseshoe (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king",
-        "acres": "8.50 acres",
-        "elevation": "4265 feet",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king-1",
+        "acres": "22.80 acres",
+        "elevation": "3906 feet",
         "county": "King",
-        "location_lat": "47.503778",
-        "location_lon": "-121.502338"
+        "location_lat": "47.53419",
+        "location_lon": "-121.423656"
     },
     {
         "name": "Horseshoe (King County)",
@@ -7029,7 +7029,7 @@
         "location_lon": "-121.184009"
     },
     {
-        "name": "Fourth Of July",
+        "name": "Fourth Of July (Snohomish County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/fourth-of-july",
         "acres": "1.30 acres",
         "elevation": "4387 feet",
@@ -7615,21 +7615,21 @@
     },
     {
         "name": "Twin - Upper (Snohomish County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
-        "acres": "19.70 acres",
-        "elevation": "5547 feet",
-        "county": "Snohomish",
-        "location_lat": "48.207539",
-        "location_lon": "-121.199232"
-    },
-    {
-        "name": "Twin - Upper (Snohomish County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish-1",
         "acres": "64.50 acres",
         "elevation": "4704 feet",
         "county": "Snohomish",
         "location_lat": "47.953483",
         "location_lon": "-121.377547"
+    },
+    {
+        "name": "Twin - Upper (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
+        "acres": "19.70 acres",
+        "elevation": "5547 feet",
+        "county": "Snohomish",
+        "location_lat": "48.207539",
+        "location_lon": "-121.199232"
     },
     {
         "name": "Unnamed - L31364",
