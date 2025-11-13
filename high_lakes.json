@@ -2134,12 +2134,12 @@
     },
     {
         "name": "Horseshoe (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king-1",
-        "acres": "22.80 acres",
-        "elevation": "3906 feet",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king",
+        "acres": "8.50 acres",
+        "elevation": "4265 feet",
         "county": "King",
-        "location_lat": "47.53419",
-        "location_lon": "-121.423656"
+        "location_lat": "47.503778",
+        "location_lon": "-121.502338"
     },
     {
         "name": "Hummingbird",
