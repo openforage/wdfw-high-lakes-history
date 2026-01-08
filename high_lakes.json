@@ -2125,12 +2125,12 @@
     },
     {
         "name": "Horseshoe (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king",
-        "acres": "8.50 acres",
-        "elevation": "4265 feet",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king-1",
+        "acres": "22.80 acres",
+        "elevation": "3906 feet",
         "county": "King",
-        "location_lat": "47.503778",
-        "location_lon": "-121.502338"
+        "location_lat": "47.53419",
+        "location_lon": "-121.423656"
     },
     {
         "name": "Horseshoe (King County)",
@@ -5499,6 +5499,456 @@
         "location_lon": "-121.253438"
     },
     {
+        "name": "Gee - Little",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gee-little",
+        "acres": "2.00 acres",
+        "elevation": "4186 feet",
+        "county": "Skagit",
+        "location_lat": "48.419248",
+        "location_lon": "-121.812553"
+    },
+    {
+        "name": "Gee Point",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gee-point",
+        "acres": "3.00 acres",
+        "elevation": "4106 feet",
+        "county": "Skagit",
+        "location_lat": "48.424465",
+        "location_lon": "-121.819949"
+    },
+    {
+        "name": "Gordon",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/gordon",
+        "acres": "2.20 acres",
+        "elevation": "3002 feet",
+        "county": "Skagit",
+        "location_lat": "48.390115",
+        "location_lon": "-122.110459"
+    },
+    {
+        "name": "Granite 2 Lake (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/granite-2",
+        "acres": "5.30 acres",
+        "elevation": "4192 feet",
+        "county": "Skagit",
+        "location_lat": "48.469199",
+        "location_lon": "-121.32965"
+    },
+    {
+        "name": "Granite 5",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/granite-5",
+        "acres": "2.00 acres",
+        "elevation": "5550 feet",
+        "county": "Skagit",
+        "location_lat": "48.469603",
+        "location_lon": "-121.301871"
+    },
+    {
+        "name": "Granite Lake (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/granite",
+        "acres": "13.60 acres",
+        "elevation": "3499 feet",
+        "county": "Skagit",
+        "location_lat": "48.348409",
+        "location_lon": "-121.842897"
+    },
+    {
+        "name": "Halfcan",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/halfcan",
+        "acres": "1.20 acres",
+        "elevation": "4592 feet",
+        "county": "Skagit",
+        "location_lat": "48.376838",
+        "location_lon": "-121.09727"
+    },
+    {
+        "name": "Hawkins",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hawkins",
+        "acres": "2.10 acres",
+        "elevation": "3552 feet",
+        "county": "Skagit",
+        "location_lat": "48.335805",
+        "location_lon": "-121.753606"
+    },
+    {
+        "name": "Heart",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/heart",
+        "acres": "14.10 acres",
+        "elevation": "4052 feet",
+        "county": "Skagit",
+        "location_lat": "48.643586",
+        "location_lon": "-121.928175"
+    },
+    {
+        "name": "Hidden Lake (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hidden-skagit",
+        "acres": "61.30 acres",
+        "elevation": "5737 feet",
+        "county": "Skagit",
+        "location_lat": "48.495611",
+        "location_lon": "-121.188723"
+    },
+    {
+        "name": "Hidden Lake Tarn",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hidden-lake-tarn",
+        "acres": "4.50 acres",
+        "elevation": "5947 feet",
+        "county": "Skagit",
+        "location_lat": "48.502572",
+        "location_lon": "-121.186748"
+    },
+    {
+        "name": "Horse",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horse",
+        "acres": "4.20 acres",
+        "elevation": "4427 feet",
+        "county": "Skagit",
+        "location_lat": "48.322979",
+        "location_lon": "-121.213999"
+    },
+    {
+        "name": "Howard (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/howard-skagit",
+        "acres": "2.30 acres",
+        "elevation": "3991 feet",
+        "county": "Skagit",
+        "location_lat": "48.640518",
+        "location_lon": "-121.946459"
+    },
+    {
+        "name": "Hyas",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/hyas",
+        "acres": "2.10 acres",
+        "elevation": "4348 feet",
+        "county": "Skagit",
+        "location_lat": "48.365042",
+        "location_lon": "-121.363503"
+    },
+    {
+        "name": "Itswoot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/itswoot",
+        "acres": "36.90 acres",
+        "elevation": "5020 feet",
+        "county": "Skagit",
+        "location_lat": "48.300711",
+        "location_lon": "-121.087869"
+    },
+    {
+        "name": "Jordan - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jordan-lower",
+        "acres": "52.20 acres",
+        "elevation": "4037 feet",
+        "county": "Skagit",
+        "location_lat": "48.45094",
+        "location_lon": "-121.359016"
+    },
+    {
+        "name": "Jordan - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/jordan-upper",
+        "acres": "66.10 acres",
+        "elevation": "4515 feet",
+        "county": "Skagit",
+        "location_lat": "48.452231",
+        "location_lon": "-121.336785"
+    },
+    {
+        "name": "Josephine - Lower",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/josephine-lower",
+        "acres": "2.30 acres",
+        "elevation": "2796 feet",
+        "county": "Skagit",
+        "location_lat": "48.584658",
+        "location_lon": "-121.95525"
+    },
+    {
+        "name": "Josephine - Upper",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/josephine-upper",
+        "acres": "2.60 acres",
+        "elevation": "3052 feet",
+        "county": "Skagit",
+        "location_lat": "48.588064",
+        "location_lon": "-121.944944"
+    },
+    {
+        "name": "Kawkawak",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/kawkawak",
+        "acres": "7.30 acres",
+        "elevation": "5354 feet",
+        "county": "Skagit",
+        "location_lat": "48.33686",
+        "location_lon": "-121.310197"
+    },
+    {
+        "name": "Kitling",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/kitling",
+        "acres": "1.50 acres",
+        "elevation": "5794 feet",
+        "county": "Skagit",
+        "location_lat": "48.5977",
+        "location_lon": "-120.858997"
+    },
+    {
+        "name": "La Rush",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/la-rush",
+        "acres": "3.30 acres",
+        "elevation": "3168 feet",
+        "county": "Skagit",
+        "location_lat": "48.503098",
+        "location_lon": "-121.277758"
+    },
+    {
+        "name": "Lewis",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/lewis",
+        "acres": "10.60 acres",
+        "elevation": "5707 feet",
+        "county": "Skagit",
+        "location_lat": "48.513576",
+        "location_lon": "-120.784168"
+    },
+    {
+        "name": "Long Gone",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/long-gone",
+        "acres": "9.80 acres",
+        "elevation": "4946 feet",
+        "county": "Skagit",
+        "location_lat": "48.382222",
+        "location_lon": "-121.129601"
+    },
+    {
+        "name": "Long Gone Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/long-gone-pot",
+        "acres": "1.30 acres",
+        "elevation": "5547 feet",
+        "county": "Skagit",
+        "location_lat": "48.383075",
+        "location_lon": "-121.13998"
+    },
+    {
+        "name": "Louise",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/louise",
+        "acres": "5.30 acres",
+        "elevation": "4827 feet",
+        "county": "Skagit",
+        "location_lat": "48.402383",
+        "location_lon": "-121.464552"
+    },
+    {
+        "name": "McGinnis",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mcginnis",
+        "acres": "6.30 acres",
+        "elevation": "4282 feet",
+        "county": "Skagit",
+        "location_lat": "48.637821",
+        "location_lon": "-121.93644"
+    },
+    {
+        "name": "McGinnis Pot",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/mcginnis-pot",
+        "acres": "1.10 acres",
+        "elevation": "4622 feet",
+        "county": "Skagit",
+        "location_lat": "48.635471",
+        "location_lon": "-121.930729"
+    },
+    {
+        "name": "Monogram",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/monogram",
+        "acres": "28.70 acres",
+        "elevation": "4877 feet",
+        "county": "Skagit",
+        "location_lat": "48.556917",
+        "location_lon": "-121.280465"
+    },
+    {
+        "name": "Myrtle (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/myrtle-skagit",
+        "acres": "7.20 acres",
+        "elevation": "3515 feet",
+        "county": "Skagit",
+        "location_lat": "48.320949",
+        "location_lon": "-121.814782"
+    },
+    {
+        "name": "Pear (Skagit County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/pear-skagit",
+        "acres": "7.40 acres",
+        "elevation": "5231 feet",
+        "county": "Skagit",
+        "location_lat": "48.327832",
+        "location_lon": "-121.321298"
+    },
+    {
+        "name": "Shelf",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/shelf",
+        "acres": "4.10 acres",
+        "elevation": "4026 feet",
+        "county": "Skagit",
+        "location_lat": "48.333768",
+        "location_lon": "-121.758397"
+    },
+    {
+        "name": "Skaro",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/skaro",
+        "acres": "13.90 acres",
+        "elevation": "4500 feet",
+        "county": "Skagit",
+        "location_lat": "48.428058",
+        "location_lon": "-121.265072"
+    },
+    {
+        "name": "Slide Lake",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/slide-lake",
+        "acres": "30.60 acres",
+        "elevation": "3114 feet",
+        "county": "Skagit",
+        "location_lat": "48.43071",
+        "location_lon": "-121.348826"
+    },
+    {
+        "name": "Snowking",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/snowking",
+        "acres": "25.60 acres",
+        "elevation": "4464 feet",
+        "county": "Skagit",
+        "location_lat": "48.42485",
+        "location_lon": "-121.262112"
+    },
+    {
+        "name": "Sonny Boy 2",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sonny-boy-2",
+        "acres": "2.50 acres",
+        "elevation": "4746 feet",
+        "county": "Skagit",
+        "location_lat": "48.409733",
+        "location_lon": "-121.164839"
+    },
+    {
+        "name": "Splendor",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/splendor",
+        "acres": "2.70 acres",
+        "elevation": "4587 feet",
+        "county": "Skagit",
+        "location_lat": "48.549659",
+        "location_lon": "-121.558541"
+    },
+    {
+        "name": "Springsteen",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/springsteen",
+        "acres": "15.50 acres",
+        "elevation": "3513 feet",
+        "county": "Skagit",
+        "location_lat": "48.623769",
+        "location_lon": "-121.847819"
+    },
+    {
+        "name": "Stag",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/stag",
+        "acres": "7.80 acres",
+        "elevation": "4947 feet",
+        "county": "Skagit",
+        "location_lat": "48.384481",
+        "location_lon": "-121.283954"
+    },
+    {
+        "name": "Stilwell",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/stilwell",
+        "acres": "3.80 acres",
+        "elevation": "4136 feet",
+        "county": "Skagit",
+        "location_lat": "48.59327",
+        "location_lon": "-121.585951"
+    },
+    {
+        "name": "Sweetpea",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/sweetpea",
+        "acres": "9.00 acres",
+        "elevation": "5553 feet",
+        "county": "Skagit",
+        "location_lat": "48.600949",
+        "location_lon": "-120.943978"
+    },
+    {
+        "name": "Thunder 1",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/thunder-1",
+        "acres": "0.70 acres",
+        "elevation": "4041 feet",
+        "county": "Skagit",
+        "location_lat": "48.590084",
+        "location_lon": "-121.635815"
+    },
+    {
+        "name": "Thunder 2",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/thunder-2",
+        "acres": "1.10 acres",
+        "elevation": "3978 feet",
+        "county": "Skagit",
+        "location_lat": "48.58781",
+        "location_lon": "-121.635447"
+    },
+    {
+        "name": "Tupso",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/tupso",
+        "acres": "3.70 acres",
+        "elevation": "4513 feet",
+        "county": "Skagit",
+        "location_lat": "48.390946",
+        "location_lon": "-121.461423"
+    },
+    {
+        "name": "Unnamed - L7262",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/unnamed-l7262",
+        "acres": "1.70 acres",
+        "elevation": "2641 feet",
+        "county": "Skagit",
+        "location_lat": "48.404009",
+        "location_lon": "-122.130818"
+    },
+    {
+        "name": "Unnamed ID3117",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/unnamed-id3117",
+        "acres": "0.90 acres",
+        "elevation": "3004 feet",
+        "county": "Skagit",
+        "location_lat": "48.390423",
+        "location_lon": "-122.106209"
+    },
+    {
+        "name": "Unnamed ID654",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/unnamed-id654",
+        "acres": "1.90 acres",
+        "elevation": "3003 feet",
+        "county": "Skagit",
+        "location_lat": "48.390166",
+        "location_lon": "-122.107268"
+    },
+    {
+        "name": "Wagner",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/wagner",
+        "acres": "1.60 acres",
+        "elevation": "2994 feet",
+        "county": "Skagit",
+        "location_lat": "48.391328",
+        "location_lon": "-122.10217"
+    },
+    {
+        "name": "Whale",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/whale",
+        "acres": "45.00 acres",
+        "elevation": "4559 feet",
+        "county": "Skagit",
+        "location_lat": "48.446676",
+        "location_lon": "-121.291677"
+    },
+    {
+        "name": "Wing",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/wing",
+        "acres": "13.60 acres",
+        "elevation": "6909 feet",
+        "county": "Skagit",
+        "location_lat": "48.517609",
+        "location_lon": "-120.80618"
+    },
+    {
         "name": "6030 Pond 1",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/6030-pond-1",
         "acres": "1.20 acres",
@@ -7165,21 +7615,21 @@
     },
     {
         "name": "Twin - Upper (Snohomish County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
-        "acres": "19.70 acres",
-        "elevation": "5547 feet",
-        "county": "Snohomish",
-        "location_lat": "48.207539",
-        "location_lon": "-121.199232"
-    },
-    {
-        "name": "Twin - Upper (Snohomish County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish-1",
         "acres": "64.50 acres",
         "elevation": "4704 feet",
         "county": "Snohomish",
         "location_lat": "47.953483",
         "location_lon": "-121.377547"
+    },
+    {
+        "name": "Twin - Upper (Snohomish County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/twin-upper-snohomish",
+        "acres": "19.70 acres",
+        "elevation": "5547 feet",
+        "county": "Snohomish",
+        "location_lat": "48.207539",
+        "location_lon": "-121.199232"
     },
     {
         "name": "Unnamed - L31364",
