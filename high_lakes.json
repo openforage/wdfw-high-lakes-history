@@ -2134,12 +2134,12 @@
     },
     {
         "name": "Horseshoe (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king",
-        "acres": "8.50 acres",
-        "elevation": "4265 feet",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/horseshoe-king-1",
+        "acres": "22.80 acres",
+        "elevation": "3906 feet",
         "county": "King",
-        "location_lat": "47.503778",
-        "location_lon": "-121.502338"
+        "location_lat": "47.53419",
+        "location_lon": "-121.423656"
     },
     {
         "name": "Hummingbird",
@@ -2854,21 +2854,21 @@
     },
     {
         "name": "Rock (King County)",
-        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king1",
-        "acres": "23.10 acres",
-        "elevation": "4550 feet",
-        "county": "King",
-        "location_lat": "47.640293",
-        "location_lon": "-121.335078"
-    },
-    {
-        "name": "Rock (King County)",
         "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king2",
         "acres": "6.20 acres",
         "elevation": "3876 feet",
         "county": "King",
         "location_lat": "47.545822",
         "location_lon": "-121.442925"
+    },
+    {
+        "name": "Rock (King County)",
+        "url": "https://wdfw.wa.gov/fishing/locations/high-lakes/rock-king1",
+        "acres": "23.10 acres",
+        "elevation": "4550 feet",
+        "county": "King",
+        "location_lat": "47.640293",
+        "location_lon": "-121.335078"
     },
     {
         "name": "Rockdale Lake",
